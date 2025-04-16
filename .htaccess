@@ -1,0 +1,22 @@
+# Enable URL rewriting
+RewriteEngine On
+
+# Set the base directory
+RewriteBase /php/
+
+# Ensure proper handling of image files
+<IfModule mod_headers.c>
+  <FilesMatch "\.(jpg|jpeg|png|gif)$">
+    Header set Cache-Control "max-age=86400, public"
+  </FilesMatch>
+</IfModule>
+
+# Handle 404 errors
+ErrorDocument 404 /php/includes/404.php
+
+# Don't apply rules to existing files or directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect all non-existent URLs to the 404 page
+RewriteRule ^(.*)$ - [R=404,L]
