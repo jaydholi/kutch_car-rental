@@ -7,8 +7,7 @@
       <!-- Logo -->
       <a href="/php/index.php" class="flex items-center">
         <span class="text-2xl font-bold">
-          <span class="text-white nav-logo-text transition-colors duration-300">Kutch</span> 
-          <span class="text-brand-orange">Car Rental</span>
+          
         </span>
       </a>
 
