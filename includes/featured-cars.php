@@ -53,7 +53,7 @@ $emptyImage = './image/empty-placeholder.png'; // Placeholder image path
     <!-- Filters -->
     <!-- <div class="flex flex-wrap gap-4 mb-6">
       <select id="filter-seating" class="border border-gray-300 rounded px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
-        <option value="">All Seating</option>
+        <option value="">All Seating</option> 
            </select>
       <select id="filter-fuel" class="border border-gray-300 rounded px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
         <option value="">All Fuel Types</option>
@@ -166,7 +166,7 @@ $emptyImage = './image/empty-placeholder.png'; // Placeholder image path
     
     <!-- View All Button -->
     <div class="text-center mt-8">
-      <a href="/php/fleet.php" class="inline-block bg-brand-orange hover:bg-orange-600 text-white px-6 py-2 rounded-md font-medium">View All Vehicles</a>
+      <a href="../fleet.php" class="inline-block bg-brand-orange hover:bg-orange-600 text-white px-6 py-2 rounded-md font-medium">View All Vehicles</a>
     </div>
   </div>
 </section>
