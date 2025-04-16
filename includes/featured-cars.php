@@ -51,28 +51,23 @@ $emptyImage = './image/empty-placeholder.png'; // Placeholder image path
     </div>
     
     <!-- Filters -->
-    <div class="flex flex-wrap gap-4 mb-6">
+    <!-- <div class="flex flex-wrap gap-4 mb-6">
       <select id="filter-seating" class="border border-gray-300 rounded px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
         <option value="">All Seating</option>
-        <?php foreach ($seatingOptions as $seat): ?>
-          <option value="<?php echo $seat; ?>"><?php echo $seat; ?> seats</option>
-        <?php endforeach; ?>
-      </select>
+           </select>
       <select id="filter-fuel" class="border border-gray-300 rounded px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
         <option value="">All Fuel Types</option>
-        <?php foreach ($fuelOptions as $fuel): ?>
-          <option value="<?php echo htmlspecialchars($fuel); ?>"><?php echo htmlspecialchars($fuel); ?></option>
-        <?php endforeach; ?>
+
       </select>
       <select id="filter-availability" class="border border-gray-300 rounded px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
         <option value="">All Availability</option>
         <option value="available">Available</option>
         <option value="unavailable">Unavailable</option>
       </select>
-    </div>
+    </div> -->
     
     <!-- Car Listings Table -->
-    <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+    <!-- <div class="bg-white rounded-lg shadow-md overflow-hidden mb-8">
       <table class="min-w-full divide-y divide-gray-200">
         <thead class="bg-gray-50">
           <tr>
@@ -124,14 +119,14 @@ $emptyImage = './image/empty-placeholder.png'; // Placeholder image path
           <?php endforeach; ?>
         </tbody>
       </table>
-    </div>
+    </div> -->
     
     <!-- View All Button -->
-    <div class="text-center mt-8">
+    <!-- <div class="text-center mt-8">
       <a href="/php/fleet.php" class="inline-block bg-brand-orange hover:bg-orange-600 text-white px-6 py-2 rounded-md font-medium">View All</a>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- Card View Section (Similar to first screenshot) -->
 <section class="py-16 bg-gray-50">
