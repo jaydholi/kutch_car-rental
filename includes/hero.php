@@ -3,10 +3,10 @@
 ?>
 <section id="hero-section" class="relative h-screen flex items-center">
   <div class="slideshow-container absolute inset-0 w-full h-full">
-    <div class="slide bg-cover bg-center w-full h-full active" style="background-image: url('/image/SlideShow0.jpeg');"></div>
-    <div class="slide bg-cover bg-center w-full h-full" style="background-image: url('/image/SlideShow.png');"></div>
-    <div class="slide bg-cover bg-center w-full h-full" style="background-image: url('/image/SlideShow2.jpeg');"></div>
-    <div class="slide bg-cover bg-center w-full h-full" style="background-image: url('/image/SlideShow3.jpeg');"></div>
+    <div class="slide bg-cover bg-center w-full h-full active" style="background-image: url('./image/SlideShow0.jpeg');"></div>
+<!--     <div class="slide bg-cover bg-center w-full h-full" style="background-image: url('/image/SlideShow.png');"></div>-->
+    <div class="slide bg-cover bg-center w-full h-full" style="background-image: url('./image/SlideShow2.jpeg');"></div> 
+    <div class="slide bg-cover bg-center w-full h-full" style="background-image: url('./image/SlideShow3.jpeg');"></div>
   </div>
   <div class="absolute inset-0 bg-black bg-opacity-50"></div>
   <div class="container mx-auto px-4 text-center relative z-10">
